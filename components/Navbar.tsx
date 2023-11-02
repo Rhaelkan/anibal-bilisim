@@ -28,12 +28,12 @@ const Navbar = () => {
   return (
     <nav className="fixed top-3 z-50 w-full px-3 lg:top-6">
       <div
-        className={`w-full lg:max-w-4xl mx-auto py-2 px-4 rounded-full flex items-center justify-between ${
+        className={`w-full lg:max-w-5xl mx-auto py-2 px-4 rounded-full flex items-center justify-between ${
           scrolling && "bg-zinc-800 bg-opacity-80 backdrop-blur-lg"
         }`}
       >
         <Image src={navbarLogo} alt="navbar logo" width={32}></Image>
-        <div className="text-sm space-x-6 max-lg:hidden">
+        <div className="space-x-6 max-lg:hidden">
           <Link
             href="/"
             className="text-gray-500 hover:text-white duration-150"
@@ -78,10 +78,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-2 max-lg:hidden">
-          <button className="bg-zinc-800 border border-zinc-700 text-gray-400 rounded-full px-5 py-2 text-sm hover:text-white duration-150">
+          <button className="bg-zinc-800 border border-zinc-700 text-gray-400 rounded-full px-5 py-2 hover:text-white duration-150">
             Log In
           </button>
-          <button className="bg-zinc-600 text-white rounded-full px-5 py-2.5 text-sm font-semibold">
+          <button className="bg-zinc-600 text-white rounded-full px-5 py-2.5 font-semibold">
             Get Started
           </button>
         </div>
@@ -155,7 +155,7 @@ const Navbar = () => {
           >
             Spline Community
           </Link>
-          <button className="py-2 px-6 bg-sky-500 bg rounded-full text-white font-semibold hover:bg-sky-600 duration-150">
+          <button className="py-2 px-6 bg-blue-500 bg rounded-full text-white font-semibold hover:bg-blue-600 duration-150">
             Get Started
           </button>
         </div>
