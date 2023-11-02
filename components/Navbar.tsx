@@ -32,7 +32,12 @@ const Navbar = () => {
           scrolling && "bg-zinc-800 bg-opacity-80 backdrop-blur-lg"
         }`}
       >
-        <Image src={navbarLogo} alt="navbar logo" width={32}></Image>
+        <Image
+          src={navbarLogo}
+          alt="navbar logo"
+          width={32}
+          className={`${!scrolling && "animate-bounce"}`}
+        />
         <div className="space-x-6 max-lg:hidden">
           <Link
             href="/"
@@ -78,7 +83,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-2 max-lg:hidden">
-          <button className="bg-zinc-800 border border-zinc-700 text-gray-400 rounded-full px-5 py-2 hover:text-white duration-150">
+          <button className="bg-zinc-800 bg-opacity-10 border border-zinc-700 text-gray-400 rounded-full px-5 py-2 hover:text-white duration-150">
             Log In
           </button>
           <button className="bg-zinc-600 text-white rounded-full px-5 py-2.5 font-semibold">

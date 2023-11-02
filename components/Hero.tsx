@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="w-full h-screen flex justify-center">
+    <section className="w-full h-screen flex justify-center">
       <div className="absolute h-fit w-fit py-28 md:py-36 px-8 flex flex-col justify-start items-center leading-tight">
         <div className="space-y-7 flex flex-col justify-center">
           <h1 className="text-white text-center text-[23px] tracking-tight font-semibold md:text-[40px] max-w-xl">
@@ -91,7 +91,7 @@ const Hero = () => {
       <div className="absolute w-fit h-fit bg-zinc-800 bg-opacity-70 text-gray-400 py-4 px-7 backdrop-blur rounded-full bottom-28">
         <h1>Press and drag to orbit</h1>
       </div>
-    </div>
+    </section>
   );
 };
 
