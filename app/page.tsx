@@ -7,6 +7,7 @@ import More from "@/components/More";
 import CreateAndCollaborate from "@/components/CreateAndCollaborate";
 import Integrate from "@/components/Integrate";
 import GetSpline from "@/components/GetSpline";
+import LovedByTeams from "@/components/LovedByTeams";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <CreateAndCollaborate />
       <Integrate />
       <GetSpline />
+      <LovedByTeams />
     </main>
   );
 }

@@ -16,6 +16,11 @@ import physics from "@/public/tools/physics.jpg";
 import realTime from "@/public/tools/realtime.jpg";
 import sculpting from "@/public/tools/sculpting.jpg";
 
+// Loved By Teams Section Images
+import client1 from "@/public/lovedbyteams/client1.png";
+import client2 from "@/public/lovedbyteams/client2.png";
+import client3 from "@/public/lovedbyteams/client3.png";
+
 export const explorers = [
   {
     imageName: text3d,
@@ -166,5 +171,29 @@ export const mores = [
     title: "Components",
     description:
       "Create complex 3d design systems using a component-based system.",
+  },
+];
+
+export const clients = [
+  {
+    description:
+      "“As a designer who has always worked in 2D spaces, Spline is the first 3D design software I was able to feel comfortable with and pick up with ease.”",
+    image: client1,
+    job: "Product Designer at Muck Rack",
+    userName: "@thelitheryd",
+  },
+  {
+    description:
+      "“It's the easiest way for a designer to collaborate remotely with the rest of the team in a 3D environment.”",
+    image: client2,
+    job: "Product Designer at Threads",
+    userName: "@timquirino",
+  },
+  {
+    description:
+      "“Today I learned making a 3D toggle micro interaction! The Spline tutorials are very easy to follow.” “...I'm looking forward to trying out more of their tutorials.”",
+    image: client3,
+    job: "UX Consultant at EY",
+    userName: "@IpshitaChatter2",
   },
 ];
