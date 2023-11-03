@@ -32,12 +32,14 @@ const Navbar = () => {
           scrolling && "bg-zinc-800 bg-opacity-80 backdrop-blur-lg"
         }`}
       >
-        <Image
-          src={navbarLogo}
-          alt="navbar logo"
-          width={32}
-          className={`${!scrolling && "animate-bounce"}`}
-        />
+        <Link href="/">
+          <Image
+            src={navbarLogo}
+            alt="navbar logo"
+            width={32}
+            className={`${!scrolling && "animate-bounce"}`}
+          />
+        </Link>
         <div className="space-x-8 flex items-center max-lg:hidden">
           <Link
             href="/"
@@ -81,7 +83,7 @@ const Navbar = () => {
             Customers
           </Link>
           <Link
-            href="/"
+            href="/examples"
             className="text-gray-500 hover:text-white duration-150"
           >
             Examples
@@ -94,10 +96,13 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-2 max-lg:hidden">
-          <button className="bg-zinc-800 bg-opacity-10 border border-zinc-700 text-gray-400 rounded-full px-5 py-2 hover:text-white duration-150">
+          <Link
+            href="/login"
+            className="bg-zinc-800 bg-opacity-10 border border-zinc-700 text-gray-400 rounded-full px-5 py-2.5 hover:text-white duration-150"
+          >
             Log In
-          </button>
-          <button className="bg-zinc-600 text-white rounded-full px-5 py-2.5 font-semibold">
+          </Link>
+          <button className="bg-zinc-600 text-white rounded-full px-5 py-2 font-semibold">
             Get Started
           </button>
         </div>
@@ -105,20 +110,37 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="bg-zinc-800 bg-opacity-50 p-2 rounded-full group lg:hidden"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-5 h-5 text-gray-400 group-hover:text-gray-300"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
+          {isMenuOpen ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-5 h-5 text-gray-400 group-hover:text-gray-300"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-5 h-5 text-gray-400 group-hover:text-gray-300"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          )}
         </button>
       </div>
       {isMenuOpen && (
@@ -142,7 +164,7 @@ const Navbar = () => {
             AI Style Transfer
           </Link>
           <Link
-            href="/"
+            href="/examples"
             className="text-gray-400 hover:text-white duration-150"
           >
             Examples

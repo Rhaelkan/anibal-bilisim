@@ -9,10 +9,10 @@ const GetSpline = () => {
     <section className="py-32 max-lg:px-4">
       <div className="max-w-5xl mx-auto space-y-4">
         <h1 className="text-gray-300 text-center text-2xl font-medium md:text-3xl">
-          Get Spline Now
+          Get Anibal Now
         </h1>
         <p className="text-zinc-500 text-center text-lg md:text-2xl max-w-2xl mx-auto">
-          We would love to see what you can build with Spline! Please tag us on
+          We would love to see what you can build with Anibal! Please tag us on
           𝕏 / Twitter or Instagram with your work.
         </p>
         <div className="pt-8 flex flex-col justify-center items-center gap-4 lg:flex-row">

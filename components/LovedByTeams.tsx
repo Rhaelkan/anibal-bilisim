@@ -41,7 +41,7 @@ const LovedByTeams = () => {
           Loved by teams around the world
         </h1>
         <p className="text-zinc-500 text-center text-lg md:text-2xl max-w-2xl mx-auto">
-          Teams love creating in 3D with Spline for its ease of use and
+          Teams love creating in 3D with Anibal for its ease of use and
           flexibility.
         </p>
         <div className="pt-8 grid grid-cols-1 md:grid-cols-3 gap-6">

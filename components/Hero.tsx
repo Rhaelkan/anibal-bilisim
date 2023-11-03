@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="absolute h-fit w-fit py-28 md:py-36 px-8 flex flex-col justify-start items-center leading-tight">
         <div className="space-y-7 flex flex-col justify-center">
           <h1 className="text-white text-center text-[23px] tracking-tight font-semibold md:text-[40px] max-w-xl">
-            Spline, a place to design and collaborate in 3D.
+            Anibal, a place to design and collaborate in 3D.
           </h1>
           <div className="flex items-center space-x-6 justify-center">
             <div className="flex items-center space-x-1">

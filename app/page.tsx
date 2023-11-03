@@ -8,6 +8,7 @@ import CreateAndCollaborate from "@/components/CreateAndCollaborate";
 import Integrate from "@/components/Integrate";
 import GetSpline from "@/components/GetSpline";
 import LovedByTeams from "@/components/LovedByTeams";
+import Hiring from "@/components/Hiring";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Integrate />
       <GetSpline />
       <LovedByTeams />
+      <Hiring />
     </main>
   );
 }

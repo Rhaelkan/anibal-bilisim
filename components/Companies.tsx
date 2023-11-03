@@ -3,7 +3,7 @@ const Companies = () => {
     <section className="py-32 px-4">
       <div className="max-w-5xl mx-auto text-white">
         <h1 className="text-center text-2xl text-zinc-500">
-          Companies using Spline
+          Companies using Anibal
         </h1>
         <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 pt-8">
           {/* Svg dosyalarının her birinin içindeki yapı farklı olduğu için map fonksiyonuyla yapılmadı.

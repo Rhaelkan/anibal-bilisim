@@ -177,7 +177,7 @@ export const mores = [
 export const clients = [
   {
     description:
-      "“As a designer who has always worked in 2D spaces, Spline is the first 3D design software I was able to feel comfortable with and pick up with ease.”",
+      "“As a designer who has always worked in 2D spaces, Anibal is the first 3D design software I was able to feel comfortable with and pick up with ease.”",
     image: client1,
     job: "Product Designer at Muck Rack",
     userName: "@thelitheryd",
@@ -191,9 +191,79 @@ export const clients = [
   },
   {
     description:
-      "“Today I learned making a 3D toggle micro interaction! The Spline tutorials are very easy to follow.” “...I'm looking forward to trying out more of their tutorials.”",
+      "“Today I learned making a 3D toggle micro interaction! The Anibal tutorials are very easy to follow.” “...I'm looking forward to trying out more of their tutorials.”",
     image: client3,
     job: "UX Consultant at EY",
     userName: "@IpshitaChatter2",
+  },
+];
+
+export const contacts = [
+  {
+    emoji: "💌",
+    email: "hello@anibal.design",
+  },
+  {
+    emoji: "🖐",
+    email: "help@anibal.design",
+  },
+  {
+    emoji: "👩‍💻",
+    email: "jobs@anibal.design",
+  },
+];
+
+export const socials = [
+  {
+    name: "𝕏 / Twitter",
+  },
+  {
+    name: "🌈 Instagram",
+  },
+  {
+    name: "🔴 YouTube",
+  },
+  {
+    name: "🎨 Tiktok",
+  },
+  {
+    name: "🟣 Discord",
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Product",
+    smallLinks: [
+      "Features",
+      "Community",
+      "Pricing",
+      "Download",
+      "All Prompt",
+      "AI Style Transfer",
+    ],
+  },
+  {
+    title: "Resources",
+    smallLinks: [
+      "Contra",
+      "Docs",
+      "Examples",
+      "Tutorials",
+      "Customers",
+      "Spline Community",
+    ],
+  },
+  {
+    title: "Company",
+    smallLinks: ["Careers", "Terms & Conditions", "Privacy"],
+  },
+  {
+    title: "Contact",
+    smallLinks: [
+      "hello@anibal.design",
+      "help@anibal.design",
+      "jobs@anibal.design",
+    ],
   },
 ];

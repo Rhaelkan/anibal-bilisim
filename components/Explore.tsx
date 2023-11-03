@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { explorers } from "@/constants";
 
@@ -40,9 +41,12 @@ const Explore = () => {
           ))}
         </div>
         <div className="w-full flex justify-center pt-8">
-          <button className="bg-zinc-800 border border-gray-700 text-gray-500 rounded-full px-5 py-2 hover:text-white duration-150">
+          <Link
+            href="/examples"
+            className="bg-zinc-800 border border-gray-700 text-gray-500 rounded-full px-5 py-2 hover:text-white duration-150"
+          >
             See All Examples
-          </button>
+          </Link>
         </div>
       </div>
     </section>

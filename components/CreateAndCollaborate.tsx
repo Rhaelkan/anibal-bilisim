@@ -7,7 +7,7 @@ const CreateAndCollaborate = () => {
         </h1>
         <p className="text-zinc-500 text-center text-lg md:text-2xl max-w-2xl mx-auto">
           Add comments, invite your team, or share a link! Brainstorming in 3D
-          is easy with Spline.
+          is easy with Anibal.
         </p>
         <div className="pt-8">
           <video

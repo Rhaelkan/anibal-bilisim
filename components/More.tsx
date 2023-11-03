@@ -33,7 +33,7 @@ const More = () => {
           And there is more!
         </h1>
         <p className="text-zinc-500 tracking-tight text-center text-lg md:text-2xl max-w-2xl mx-auto">
-          Spline is constantly growing just like the possibilities of what you
+          Anibal is constantly growing just like the possibilities of what you
           can achieve.
         </p>
         <div className="flex flex-wrap justify-center gap-6 pt-8">
