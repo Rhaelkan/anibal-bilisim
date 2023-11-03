@@ -1,4 +1,4 @@
-const Design = () => {
+const Integrate = () => {
   return (
     <section className="py-32 max-lg:px-4">
       <div className="max-w-5xl mx-auto space-y-4">
@@ -9,22 +9,20 @@ const Design = () => {
           Create 3D objects, edit materials, add interactivity, and export.
           Control the outcome of your 3d design work.
         </p>
-        <div className="pt-8">
-          <video
-            autoPlay
-            playsInline
-            loop
-            muted
-            src="https://cdn.spline.design/_assets/_videos/spline_beta_release.mp4"
-            poster="/_next/static/media/video_preview.fb407255.jpg"
-            width="1080"
-            height="634"
+        <div className="pt-8 h-[512px] relative">
+          <h1 className="absolute text-zinc-500 text-sm top-12 left-8 cursor-default">
+            Drag the cube to interact with it
+          </h1>
+          <iframe
+            src="https://my.spline.design/cubeaxiswebsiteupdatedinprod-c7eb2ea95c5e22c50b14b5333ee86583/"
+            width="100%"
+            height="100%"
             className="rounded-2xl"
-          ></video>
+          ></iframe>
         </div>
       </div>
     </section>
   );
 };
 
-export default Design;
+export default Integrate;

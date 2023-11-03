@@ -1,5 +1,3 @@
-import React from "react";
-
 const Companies = () => {
   return (
     <section className="py-32 px-4">
