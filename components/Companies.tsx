@@ -2,8 +2,8 @@ import React from "react";
 
 const Companies = () => {
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-6xl mx-auto text-white">
+    <section className="py-32 px-4">
+      <div className="max-w-5xl mx-auto text-white">
         <h1 className="text-center text-2xl text-zinc-500">
           Companies using Spline
         </h1>
@@ -12,7 +12,7 @@ const Companies = () => {
               Her bir svg dosyasının yapısı aynı olsaydı constant.js dosyasından veriler map fonksiyonuyla
               listelenip proplar ile gösterilecekti.
           */}
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="73"
               viewBox="0 0 73 23"
@@ -26,7 +26,7 @@ const Companies = () => {
               ></path>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="84"
               viewBox="0 0 84 29"
@@ -48,7 +48,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="106"
               viewBox="0 0 106 31"
@@ -70,7 +70,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="94"
               viewBox="0 0 94 29"
@@ -98,7 +98,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="85"
               viewBox="0 0 85 27"
@@ -126,7 +126,7 @@ const Companies = () => {
               </g>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="130"
               viewBox="0 0 130 21"
@@ -171,7 +171,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="98"
               viewBox="0 0 98 21"
@@ -214,7 +214,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="66"
               viewBox="0 0 66 25"
@@ -228,7 +228,7 @@ const Companies = () => {
               ></path>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="128"
               viewBox="0 0 128 27"
@@ -250,7 +250,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="67"
               viewBox="0 0 67 25"
@@ -272,7 +272,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="119"
               viewBox="0 0 119 25"
@@ -294,7 +294,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="50"
               viewBox="0 0 50 49"
@@ -308,7 +308,7 @@ const Companies = () => {
               ></path>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="100"
               viewBox="0 0 100 17"
@@ -335,7 +335,7 @@ const Companies = () => {
               </defs>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="142"
               viewBox="0 0 142 23"
@@ -349,7 +349,7 @@ const Companies = () => {
               ></path>
             </svg>
           </div>
-          <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
+          <div className="bg-[#191A1D] rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="101"
               viewBox="0 0 101 29"

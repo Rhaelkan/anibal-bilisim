@@ -65,7 +65,10 @@ const Hero = () => {
               </h1>
             </div>
           </div>
-          <button className="bg-blue-500 text-white font-semibold hover:bg-blue-600 duration-150 w-full max-w-[280px] mx-auto py-4 rounded-xl flex items-center justify-center">
+          <a
+            href="#explore"
+            className="bg-blue-500 text-white font-semibold hover:bg-blue-600 duration-150 w-full max-w-[280px] mx-auto py-4 rounded-xl flex items-center justify-center"
+          >
             Get started — it’s free
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +84,7 @@ const Hero = () => {
                 d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
       <iframe

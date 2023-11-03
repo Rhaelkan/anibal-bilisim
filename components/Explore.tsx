@@ -26,7 +26,7 @@ const Card = ({ img, title }: CardProps) => {
 
 const Explore = () => {
   return (
-    <section>
+    <section id="explore">
       <div className="max-w-7xl mx-auto py-8 space-y-4">
         <h1 className="text-gray-300 text-center text-2xl font-medium md:text-3xl">
           Explore the latest examples
