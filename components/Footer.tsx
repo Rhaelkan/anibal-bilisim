@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="my-10 h-[1px] bg-zinc-800" />
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center">
           <h1 className="text-zinc-500 font-medium order-2 sm:order-1">
-            ©2023 - Spline, Inc.
+            ©2023 - Anibal Bilişim
           </h1>
           <div className="flex items-center justify-between order-1 sm:order-2 space-x-6">
             <svg
