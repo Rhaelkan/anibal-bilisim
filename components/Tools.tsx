@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { tools } from "@/constants";
 
 interface ToolsCardProps {
-  imageName: HTMLImageElement;
+  imageName: StaticImageData;
   title: string;
   description: string;
 }
