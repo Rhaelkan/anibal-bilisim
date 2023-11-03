@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { clients } from "@/constants";
 
 interface TeamsCardProps {
   description: string;
-  image: HTMLImageElement;
+  image: StaticImageData;
   job: string;
   userName: string;
 }

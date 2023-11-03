@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 import { explorers } from "@/constants";
 
 interface CardProps {
-  img: HTMLImageElement;
+  img: StaticImageData;
   title: string;
 }
 
