@@ -8,6 +8,10 @@ const Companies = () => {
           Companies using Spline
         </h1>
         <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 pt-8">
+          {/* Svg dosyalarının her birinin içindeki yapı farklı olduğu için map fonksiyonuyla yapılmadı.
+              Her bir svg dosyasının yapısı aynı olsaydı constant.js dosyasından veriler map fonksiyonuyla
+              listelenip proplar ile gösterilecekti.
+          */}
           <div className="bg-zinc-900 rounded-2xl aspect-video flex justify-center items-center">
             <svg
               width="73"
