@@ -7,9 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anibal Bilişim | Front End Case",
-  description:
-    "Anibal Bilişim Front End Developer pozisyonu için Hakan Doruk tarafından yapılmıştır.",
+  title: "Spline Design | Hakan Doruk",
+  description: "Spline.design web app by Hakan Doruk.",
 };
 
 export default function RootLayout({
